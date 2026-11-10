@@ -1,0 +1,48 @@
+:root {
+  /* Color Palette - Premium Slate & Electric Cyan */
+  --bg-dark-900: #07090E;
+  --bg-dark-800: #0E121B;
+  --bg-dark-700: #151B27;
+  --bg-dark-600: #1E2638;
+  --bg-card: rgba(17, 24, 39, 0.75);
+  --bg-card-hover: rgba(26, 35, 54, 0.85);
+
+  /* Borders & Glass */
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-active: rgba(0, 210, 180, 0.4);
+  --glass-glow: 0 8px 32px 0 rgba(0, 0, 0, 0.45);
+
+  /* Brand Accents */
+  --brand-primary: #00D2B4;
+  --brand-primary-hover: #00BAA0;
+  --brand-primary-light: rgba(0, 210, 180, 0.12);
+  --brand-secondary: #3B82F6;
+  --brand-secondary-light: rgba(59, 130, 246, 0.12);
+
+  /* Status Colors */
+  --status-verified: #10B981;
+  --status-verified-bg: rgba(16, 185, 129, 0.12);
+  --status-pending: #F59E0B;
+  --status-pending-bg: rgba(245, 158, 11, 0.12);
+  --status-rejected: #EF4444;
+  --status-rejected-bg: rgba(239, 68, 68, 0.12);
+  --status-suspended: #A855F7;
+  --status-suspended-bg: rgba(168, 85, 247, 0.12);
+
+  /* Typography */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Layout */
+  --sidebar-width: 260px;
+  --header-height: 70px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --transition-fast: 0.15s ease;
+  --transition-smooth: 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
